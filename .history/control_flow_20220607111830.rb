@@ -21,12 +21,11 @@ end
 
 def fizzbuzz(num)
   if num % 3 == 0 && num % 5 == 0
-           "FizzBuzz"
+           "FizzBuzz"num % 3 == 0 
+     "Fizz"
     elsif num % 5 == 0
        "Buzz"
         elsif 
-          num % 3 == 0 
-     "Fizz"
             else  
               num
   end
@@ -34,18 +33,7 @@ def fizzbuzz(num)
 end
 
 def calculator(operation, num1, num2)
- case operation
- when "+"
-  return num1+num2
- when "-"
-  return num1-num2
- when "*"
-  return num1*num2
- when "/"
-  return num1/num2
-  else 
-    puts "Invalid operation!"
-  end
+  # your code here
 end
 
 

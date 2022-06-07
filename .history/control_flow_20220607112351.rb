@@ -40,12 +40,9 @@ def calculator(operation, num1, num2)
  when "-"
   return num1-num2
  when "*"
-  return num1*num2
+  return num1*nun
  when "/"
   return num1/num2
-  else 
-    puts "Invalid operation!"
-  end
 end
 
 
